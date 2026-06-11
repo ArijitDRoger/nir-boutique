@@ -2,32 +2,27 @@ import { useState, useEffect } from "react";
 
 const slides = [
   {
-    image:
-      "https://scontent.fblr5-1.fna.fbcdn.net/v/t39.30808-6/649507348_122104123701261556_3799838954082532094_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=f9ID7gC_bSQQ7kNvwGO9gnS&_nc_oc=Adq9SKiNHFOiaYAdjfjmFEgyQK_HjTlChQmFL6UVN2LwP51jdY-NUlhaStd3s0Y0cSQ&_nc_zt=23&_nc_ht=scontent.fblr5-1.fna&_nc_gid=UkuNNzxFQZpH-bYqpv_xTw&_nc_ss=7b2a8&oh=00_Af-oDjaXxWFdJ_S9sw632c3rhObxa_kjEIv5w-lSdMliug&oe=6A2340D3",
+    image: "/hero/img3.jpg",
     title: "Saree Collection",
     subtitle: "Bloom in every step",
   },
   {
-    image:
-      "https://scontent.fblr5-1.fna.fbcdn.net/v/t39.30808-6/656646812_122105586717261556_2767283071988817549_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=q2D8nZ1AM2UQ7kNvwFcxeNx&_nc_oc=AdrDAw8X4BeI74Pb5fiBm4_4I7EZQQDnBu1J9B_OR5McS1VHeKWuPriTElLwxAjVt6I&_nc_zt=23&_nc_ht=scontent.fblr5-1.fna&_nc_gid=WgnA7FfBly88d4IQEuEU4w&_nc_ss=7b2a8&oh=00_Af-L6t9HLZhiLyG_l0ZPlkFP8hoJOnbEA6g3wE0qaKIg-g&oe=6A235317",
+    image: "/hero/img2.jpg",
     title: "Botua Collection",
     subtitle: "Grace redefined",
   },
   {
-    image:
-      "https://scontent.fblr5-1.fna.fbcdn.net/v/t39.30808-6/660308507_122107723677261556_4090408289323520290_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=p8v4iKbKAyEQ7kNvwGvA7Y1&_nc_oc=AdoyYnbycoZDEeJRskPuaMAfdINrt0yJUZKrn6Sh9PTBSE0q3c0oFPCeY4UWASRnMRE&_nc_zt=23&_nc_ht=scontent.fblr5-1.fna&_nc_gid=jg06V-cbnty04XHQOTkH8A&_nc_ss=7b2a8&oh=00_Af_9OLrwz4k6O8peWgungNexbr38lfFD1pSQPtnevOwvzA&oe=6A2374E4",
+    image: "/hero/img1.jpg",
     title: "Colourful Saree Collection",
     subtitle: "Celebrate in style",
   },
   {
-    image:
-      "https://scontent.fblr5-1.fna.fbcdn.net/v/t39.30808-6/668645073_122108046525261556_6805708440946466663_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=ruIEeRxWZMkQ7kNvwEzgfCI&_nc_oc=AdoJdr6d9K97JJqpm8rkN8bKyMYiLetWs2RPGTJ9DU_s7TVlma2kXif5AvJtV7NvcZs&_nc_zt=23&_nc_ht=scontent.fblr5-1.fna&_nc_gid=lKEx4uFfkzbmieiZoY4JaA&_nc_ss=7b2a8&oh=00_Af-c9k0h1MrClJOuSs0Vc3RZiTUApniRIpdCnB0r9oVHhA&oe=6A23657D",
+    image: "/hero/img5.jpg",
     title: "Party Wear Gowns",
     subtitle: "Be the showstopper",
   },
   {
-    image:
-      "https://scontent.fblr5-1.fna.fbcdn.net/v/t39.30808-6/669016003_122108246373261556_7520004304061607993_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=yOsAA_lLN10Q7kNvwH5ev70&_nc_oc=Adq4Tn9iQmBYKinPIAg7Hy40SJESLb7-0CSxYUPhaJWEr2vHXy_TcdiRJ9iZp741Xrk&_nc_zt=23&_nc_ht=scontent.fblr5-1.fna&_nc_gid=QfV_ugS6Rl2ECSDq3Qw1hA&_nc_ss=7b2a8&oh=00_Af8yj6wSouvFaI989S_lUVVlL2sBahMFopKefyxbuuznwA&oe=6A234FA6",
+    image: "/hero/img4.jpg",
     title: "Attractive Saree Collection",
     subtitle: "Elegance in every thread",
   },
