@@ -8,7 +8,7 @@ import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 import { db } from "../firebase";
 import Footer from "../components/Footer.jsx";
 
-const OWNER_WHATSAPP = "917001688122";
+const OWNER_WHATSAPP = "917908064677";
 
 export default function CartPage() {
   const { cart, removeFromCart, clearCart, totalItems } = useCart();
