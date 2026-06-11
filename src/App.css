@@ -25,6 +25,8 @@
   flex-shrink: 0;
 }
 
+
+
 .review-track:hover {
   animation-play-state: paused;
 }

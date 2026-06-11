@@ -253,21 +253,16 @@ export default function FeedbackSection() {
               className="flex gap-6 overflow-x-auto scrollbar-hide py-4"
             >
               {reviews.map((review) => (
-                <div
-                  key={review.id}
-                  className="shrink-0 w-[220px] sm:w-[250px] md:w-[300px] bg-white rounded-2xl shadow-md p-4"
-                >
+                <div key={review.id} className="review-card shrink-0">
                   <div className="text-yellow-500 text-lg mb-2">
                     {"★".repeat(review.rating)}
                   </div>
 
-                  <h3 className="font-bold text-base md:text-lg text-purple-700 mb-2">
+                  <h3 className="font-bold text-lg text-purple-700 mb-2">
                     {review.name}
                   </h3>
 
-                  <p className="text-gray-600 text-xs md:text-sm line-clamp-4">
-                    {review.review}
-                  </p>
+                  <p className="text-gray-600 text-sm">{review.review}</p>
                 </div>
               ))}
             </div>
